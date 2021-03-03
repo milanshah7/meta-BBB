@@ -5,23 +5,17 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
-
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
+  URI: git://git.openembedded.org/openembedded-core
+  layer: meta
+  branch: master
 
 Patches
 =======
 
-Please submit any patches against the meta-BBB layer to the xxxx mailing list (xxxx@zzzz.org)
+Please submit any patches against the meta-BBB layer to the mailing list (https://groups.google.com/g/meta-bbb)
 and cc: the maintainer:
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: Milan Shah <milan.opensource@gmail.com>
 
 Table of Contents
 =================
