@@ -13,7 +13,7 @@ S = "${WORKDIR}/git"
 
 # Override COMPATIBLE_MACHINE to include your machine in a copy of this recipe
 # file. Leaving it empty here ensures an early explicit build failure.
-#COMPATIBLE_MACHINE_beaglebone-yocto = "beaglebone-yocto"
+COMPATIBLE_MACHINE = "(bbb|beaglebone-yocto)"
 
 SRC_URI = " \
            git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git;branch=linux-5.4.y \
