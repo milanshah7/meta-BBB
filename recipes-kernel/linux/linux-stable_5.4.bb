@@ -5,15 +5,15 @@ require recipes-kernel/linux/linux-yocto.inc
 
 LIC_FILES_CHKSUM = "file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
 
-PV = "${LINUX_VERSION}+git${SRCPV}"
-LINUX_VERSION ?= "5.4"
+#PV = "${LINUX_VERSION}+git${SRCPV}"
+LINUX_VERSION ?= "${PV}"
 KERNEL_VERSION_SANITY_SKIP="1"
 
 S = "${WORKDIR}/git"
 
 # Override COMPATIBLE_MACHINE to include your machine in a copy of this recipe
 # file. Leaving it empty here ensures an early explicit build failure.
-COMPATIBLE_MACHINE_beaglebone-yocto = "beaglebone-yocto"
+#COMPATIBLE_MACHINE_beaglebone-yocto = "beaglebone-yocto"
 
 SRC_URI = " \
            git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git;branch=linux-5.4.y \
